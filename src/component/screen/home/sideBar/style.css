@@ -1,0 +1,87 @@
+.sidebar-container {
+    text-align: left;
+    width: 25%;
+    height: 100vh;
+}
+
+form {
+    text-align: left;
+}
+
+.burger-menu {
+    font-size: 25px;
+    color: #fc5;
+}
+
+.button-container {
+    width: 30%;
+}
+
+.avatar-container {
+    padding-top: 20px;
+    display: flex;
+    text-decoration: none;
+    flex-wrap: wrap;
+}
+
+.avatar-container p {
+    margin-top: 5px;
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+div ul li {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+li .link {
+    text-decoration: none;
+}
+
+.icon {
+    margin-right: 10px;
+}
+
+.search-input {
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+@media screen and (max-width: 920px) {
+    .button-container {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width:770px) {
+    .button-container {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:541px) {
+    .button-container {
+        width: 80%;
+    }
+
+    .search-input {
+        display: none;
+    }
+
+    .sidebar-container {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:420px) {
+    .button-container button {
+        display: none;
+    }
+
+    .sidebar-container {
+        width: 80%;
+    }
+}
